@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="RESERVA" directorySegmentName="seg_0" id="199A88FC-5C50-FFF4-B95C-374BC61815A8">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:46 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<schemaObject>7BF12A1C-DE8C-541F-9791-3F8A5E6F0D4F</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E5E64B5E-8AA2-ED65-6802-BBB2B4287C25</segment>
+<tableSpace>D4F376E0-5755-EC11-1B32-87F345EA1DE1</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="EJEMPLARID" id="C335E43A-6E59-E347-5A93-0645F4BE2F30">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SOCIOID" id="D9BAF5AF-FF1F-D9A2-88C8-D2EC443743D5">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA" id="EA603BB4-036C-3823-DB8B-D5B62C072C9A">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="RESERVA_PK" id="71155D92-E3B0-7B94-86E4-3E84BCD95CB2">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:59 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<schemaObject>7BF12A1C-DE8C-541F-9791-3F8A5E6F0D4F</schemaObject>
+<segment>DB68BD18-BEBF-5ADA-4DD4-1B446167F52D</segment>
+<tableSpace>D4F376E0-5755-EC11-1B32-87F345EA1DE1</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_SOCIOID6" id="03606085-642D-6340-A19B-99211B66087A">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:06:03 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_SEJEMPLARID5" id="4E7723A1-F3F7-3E3D-4C9E-5BB9D052209E">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:06:03 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RESERVA_PK" id="4D50DD8D-E0F6-5EA7-202E-58FFEA36254E">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:05:15 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<segment>DB68BD18-BEBF-5ADA-4DD4-1B446167F52D</segment>
+<tableSpace>D4F376E0-5755-EC11-1B32-87F345EA1DE1</tableSpace>
+<existingIndex>71155D92-E3B0-7B94-86E4-3E84BCD95CB2</existingIndex>
+<indexSegment>DB68BD18-BEBF-5ADA-4DD4-1B446167F52D</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

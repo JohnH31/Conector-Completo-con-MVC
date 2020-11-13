@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C981CDB9-8604-91B6-4AF1-40440EB77D6B" containerWithKeyObject="D2466F25-AB9E-47BE-0DFD-7B18F0BD5B84" localFKIndex="E86D9C68-7574-71AD-BF97-2535393EC0E5" name="FK_RECURSOID2">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>FK_RECURSOID2</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:06:03 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<referredTableLongName>SYS.RECURSO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>053D9F5C-15D9-3EC8-5221-640622ABFCD3</referredTableID>
+<keyObject>7484B630-505E-F939-2707-4FB265C01B6B</keyObject>
+<referredKeyID>7484B630-505E-F939-2707-4FB265C01B6B</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>RECURSOID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

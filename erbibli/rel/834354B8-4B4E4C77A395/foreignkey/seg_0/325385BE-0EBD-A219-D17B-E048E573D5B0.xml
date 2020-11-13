@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="325385BE-0EBD-A219-D17B-E048E573D5B0" containerWithKeyObject="1AB6F486-897A-6B15-0D8C-69BFAFCD185F" localFKIndex="AF3788F2-5BEB-96E3-64CE-222A3472ED29" name="FK_EMPLEADO">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>FK_EMPLEADO</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:06:03 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<referredTableLongName>SYS.BIBLIOTECA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>962CE5BB-0C94-8AAD-FFB8-D50A4E6A1CF4</referredTableID>
+<keyObject>9880A586-8AB9-E10D-E26E-9B821C15A2A5</keyObject>
+<referredKeyID>9880A586-8AB9-E10D-E26E-9B821C15A2A5</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>BIBLIOTECAID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

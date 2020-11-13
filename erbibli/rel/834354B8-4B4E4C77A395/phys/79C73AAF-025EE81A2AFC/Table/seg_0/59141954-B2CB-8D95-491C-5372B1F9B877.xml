@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="SOCIO" directorySegmentName="seg_0" id="59141954-B2CB-8D95-491C-5372B1F9B877">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:46 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<schemaObject>7BF12A1C-DE8C-541F-9791-3F8A5E6F0D4F</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E5E64B5E-8AA2-ED65-6802-BBB2B4287C25</segment>
+<tableSpace>D4F376E0-5755-EC11-1B32-87F345EA1DE1</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TIPOID" id="032B406B-810B-6414-0C16-CCEA0D9CADAE">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ULTIMAMODEMPL" id="23C09011-B057-EC21-D728-B6C4422BD715">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APELLIDOS" id="402165DE-C65F-F255-C315-0B64F0072881">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CORREOELECTRONICO" id="637638AB-FD4C-4FFF-399E-F26B42099EC4">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TELEFONO" id="777F0EF4-7B8A-268F-A6F0-CD0CCCB77156">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SOCIOID" id="90EE2785-5208-9EEE-1385-D0454E672EFB">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CÓDIGOBARRAS" id="AE5966A5-FD03-6E62-319B-49396928DEB6">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE" id="D214282D-EC30-2543-72AA-2556D07C87DC">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHABAJA" id="D4555E36-1E2C-2AF3-4CC6-6A3418BE4302">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHAALTA" id="E0DDDD2C-DC00-3C0E-4204-31D349946DF2">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ULTIMAMODFECHA" id="E9BAFD3F-FE14-E342-57F9-8E9C6E16E553">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="SOCIO_PK" id="D4E9B532-1316-27CD-142E-F5BE14C3232C">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:59 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<schemaObject>7BF12A1C-DE8C-541F-9791-3F8A5E6F0D4F</schemaObject>
+<segment>DB68BD18-BEBF-5ADA-4DD4-1B446167F52D</segment>
+<tableSpace>D4F376E0-5755-EC11-1B32-87F345EA1DE1</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_ULTIMAMODEMPL8" id="22D0BC2B-0EA8-1DEE-AEB5-0F5E30F5AD00">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:06:03 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_TIPOID9" id="762FFACC-5E00-F8E9-84DC-3DBB4C51E054">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:06:03 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SOCIO_PK" id="EA02E00C-4837-AFD6-064F-F8FE6A0C6E32">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:05:15 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<segment>DB68BD18-BEBF-5ADA-4DD4-1B446167F52D</segment>
+<tableSpace>D4F376E0-5755-EC11-1B32-87F345EA1DE1</tableSpace>
+<existingIndex>D4E9B532-1316-27CD-142E-F5BE14C3232C</existingIndex>
+<indexSegment>DB68BD18-BEBF-5ADA-4DD4-1B446167F52D</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

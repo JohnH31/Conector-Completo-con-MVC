@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="LIMITE" directorySegmentName="seg_0" id="CD57627B-4BDD-69F1-97F6-9E3EF5C04D3E">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:46 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<schemaObject>7BF12A1C-DE8C-541F-9791-3F8A5E6F0D4F</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E5E64B5E-8AA2-ED65-6802-BBB2B4287C25</segment>
+<tableSpace>D4F376E0-5755-EC11-1B32-87F345EA1DE1</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="MATERIALID" id="34ACAEE3-2154-897E-A0C1-0D02B14DC048">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LÍMITERENOVACIONES" id="778AFC9E-6C6F-B10F-92B2-45F6C9588C9A">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIPOID" id="AC7B76FC-E5FA-2378-B911-39B87B8E2283">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LÍMITEPRESTAMOS" id="BDB424BC-EC01-73FD-F422-383FE05FD630">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="LIMITE_PK" id="4E878703-526E-1BB4-3F48-8E6B70679D79">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:59 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<schemaObject>7BF12A1C-DE8C-541F-9791-3F8A5E6F0D4F</schemaObject>
+<segment>DB68BD18-BEBF-5ADA-4DD4-1B446167F52D</segment>
+<tableSpace>D4F376E0-5755-EC11-1B32-87F345EA1DE1</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_LIMITE5" id="4FDE1D1B-7E4F-60C9-BFD7-B47BFECD4B79">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:06:03 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_TIPOID5" id="93D55B6E-DDD5-9E1C-E588-A9FFC4ECF664">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:06:03 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="LIMITE_PK" id="1D3560E9-D052-C462-7D7E-96FEEDB38E27">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:05:15 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<segment>DB68BD18-BEBF-5ADA-4DD4-1B446167F52D</segment>
+<tableSpace>D4F376E0-5755-EC11-1B32-87F345EA1DE1</tableSpace>
+<existingIndex>4E878703-526E-1BB4-3F48-8E6B70679D79</existingIndex>
+<indexSegment>DB68BD18-BEBF-5ADA-4DD4-1B446167F52D</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

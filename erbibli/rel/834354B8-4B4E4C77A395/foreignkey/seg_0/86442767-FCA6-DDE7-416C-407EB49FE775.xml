@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="86442767-FCA6-DDE7-416C-407EB49FE775" containerWithKeyObject="A4B3116D-E44C-DAF7-D851-8CF73F1AF280" localFKIndex="EF5139C2-17B6-65F2-4324-45BDF667FDA1" name="FK_SOCIOID5">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>FK_SOCIOID5</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:06:03 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<referredTableLongName>SYS.SOCIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>59141954-B2CB-8D95-491C-5372B1F9B877</referredTableID>
+<keyObject>EA02E00C-4837-AFD6-064F-F8FE6A0C6E32</keyObject>
+<referredKeyID>EA02E00C-4837-AFD6-064F-F8FE6A0C6E32</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SOCIOID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

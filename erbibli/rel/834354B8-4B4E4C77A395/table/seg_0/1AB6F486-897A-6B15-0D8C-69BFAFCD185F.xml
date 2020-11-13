@@ -1,0 +1,292 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1AB6F486-897A-6B15-0D8C-69BFAFCD185F" schemaObject="7BF12A1C-DE8C-541F-9791-3F8A5E6F0D4F" name="EMPLEADO">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>EMPLEADO</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:46 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMPLEADOID" id="A7C51C7F-4F4F-37A7-B009-0B843ABC56A8">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>EMPLEADO</sourceObjSchema>
+<sourceObjName>EMPLEADOID</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODUSUARIO" id="1B51C598-07CD-5DCD-F9A5-E5BDA3C3F44F">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>EMPLEADO</sourceObjSchema>
+<sourceObjName>CODUSUARIO</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTRASEÑA" id="199E867E-2E53-4B4D-4199-0535C2894207">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>EMPLEADO</sourceObjSchema>
+<sourceObjName>CONTRASEÑA</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDOS" id="19F0DF27-8CFD-9758-2DD7-67A8878D766A">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>EMPLEADO</sourceObjSchema>
+<sourceObjName>APELLIDOS</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="50521613-E4F2-8B17-51CA-5CCB23D8C6D0">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>EMPLEADO</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BIBLIOTECAID" id="B5A7EBAB-2459-7D55-29FD-555E556A0D4A">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>EMPLEADO</sourceObjSchema>
+<sourceObjName>BIBLIOTECAID</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="325385BE-0EBD-A219-D17B-E048E573D5B0" referredColumn="6D5757B5-089C-6659-F544-33841D5F021D"/>
+</associations>
+</Column>
+<Column name="FECHAALTA" id="7BFC5292-F956-87F0-6758-6EDF79F2E849">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>EMPLEADO</sourceObjSchema>
+<sourceObjName>FECHAALTA</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHABAJA" id="0E9DC8C3-5BFD-F352-B08C-3DAD990DD728">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>EMPLEADO</sourceObjSchema>
+<sourceObjName>FECHABAJA</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUSPENDIDOFLAG" id="E4818330-758A-F8FC-3D11-456A33A1C025">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>EMPLEADO</sourceObjSchema>
+<sourceObjName>SUSPENDIDOFLAG</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADMINISTRADORFLAG" id="0F177CEF-1F34-BA1F-2124-E0CBC239F8B7">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>EMPLEADO</sourceObjSchema>
+<sourceObjName>ADMINISTRADORFLAG</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLUMN11" id="13705866-C5F1-D469-D0A5-525A4DA743C3">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>EMPLEADO</sourceObjSchema>
+<sourceObjName>COLUMN11</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRESTAMOFLAG" id="F9FD6478-F8F3-A2D5-133C-DB05667A6271">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>EMPLEADO</sourceObjSchema>
+<sourceObjName>PRESTAMOFLAG</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INFORMEFLAG" id="9A2C055F-C835-90FE-6AC5-E4FD42771F37">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>EMPLEADO</sourceObjSchema>
+<sourceObjName>INFORMEFLAG</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ULTIMAMODFECHA" id="69EC9C9A-7836-5130-256C-1FEB4EEBF694">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>EMPLEADO</sourceObjSchema>
+<sourceObjName>ULTIMAMODFECHA</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ULTIMAMODEMPL" id="67F6F74F-36D9-7106-DB2D-210932F6F378">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>EMPLEADO</sourceObjSchema>
+<sourceObjName>ULTIMAMODEMPL</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8DE58ACE-75BE-3097-6AD4-FFB200E49037" referredColumn="A7C51C7F-4F4F-37A7-B009-0B843ABC56A8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="90507416-74D7-FAE5-54D2-784ECBA4C142" name="EMPLEADO_PK">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>EMPLEADO_PK</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:05:15 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7C51C7F-4F4F-37A7-B009-0B843ABC56A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="48FA7DE0-433E-AA55-0C89-11323A557ACD" schemaObject="7BF12A1C-DE8C-541F-9791-3F8A5E6F0D4F" name="EMPLEADO_PK">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>EMPLEADO_PK</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:59 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7C51C7F-4F4F-37A7-B009-0B843ABC56A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF3788F2-5BEB-96E3-64CE-222A3472ED29" name="FK_EMPLEADO">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:06:03 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5A7EBAB-2459-7D55-29FD-555E556A0D4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E2589E2C-1E1F-84B7-ACA3-387251051893" name="FK_ULTIMAMODEMPL">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:06:03 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67F6F74F-36D9-7106-DB2D-210932F6F378"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

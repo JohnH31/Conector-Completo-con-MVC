@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="31992EE1-6E29-AD56-6ACD-CF5FFFE62894" schemaObject="7BF12A1C-DE8C-541F-9791-3F8A5E6F0D4F" name="RECURSOAUTOR">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>RECURSOAUTOR</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:46 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RECURSOID" id="B67C3316-0BC3-02F8-5675-5BE80A3A4BF2">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>RECURSOAUTOR</sourceObjSchema>
+<sourceObjName>RECURSOID</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D2152094-9DA7-1271-CB77-2E0FFE6E4A60" referredColumn="75CC0362-DFFC-7854-571F-6B5DC9F10BD2"/>
+</associations>
+</Column>
+<Column name="AUTORID" id="36493829-43C3-998E-0345-35E94E90E29A">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>RECURSOAUTOR</sourceObjSchema>
+<sourceObjName>AUTORID</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C60981E0-A2C5-4719-9F51-9D88FC45288F" referredColumn="0A4C3849-B242-83F5-9C48-6609933639F9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DB94DFC5-6871-87B8-1ADF-FD48FEDCD0A9" name="RECURSOAUTOR_PK">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>RECURSOAUTOR_PK</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:05:15 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B67C3316-0BC3-02F8-5675-5BE80A3A4BF2"/>
+<colUsage columnID="36493829-43C3-998E-0345-35E94E90E29A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AEAC2756-2AA2-8DD6-EAD1-F1AE155C5FB7" schemaObject="7BF12A1C-DE8C-541F-9791-3F8A5E6F0D4F" name="RECURSOAUTOR_PK">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>RECURSOAUTOR_PK</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:59 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B67C3316-0BC3-02F8-5675-5BE80A3A4BF2"/>
+<colUsage columnID="36493829-43C3-998E-0345-35E94E90E29A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="66BB585F-0373-21BD-B59F-D8CAF50FC48B" name="FK_AUTORID">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:06:02 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36493829-43C3-998E-0345-35E94E90E29A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="381AEEC3-73CC-AE19-7290-597F75495C5D" name="FK_RECURSOID">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:06:03 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B67C3316-0BC3-02F8-5675-5BE80A3A4BF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

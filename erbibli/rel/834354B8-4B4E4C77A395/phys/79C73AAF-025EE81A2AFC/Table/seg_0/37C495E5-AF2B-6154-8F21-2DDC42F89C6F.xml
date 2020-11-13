@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="AUTOR" directorySegmentName="seg_0" id="37C495E5-AF2B-6154-8F21-2DDC42F89C6F">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:46 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<schemaObject>7BF12A1C-DE8C-541F-9791-3F8A5E6F0D4F</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E5E64B5E-8AA2-ED65-6802-BBB2B4287C25</segment>
+<tableSpace>D4F376E0-5755-EC11-1B32-87F345EA1DE1</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="AUTORID" id="0A4C3849-B242-83F5-9C48-6609933639F9">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE" id="54E5A675-EC8D-3FB1-D0DA-4B2ECA4C1737">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="AUTOR_PK" id="487ED063-4B80-5864-0AB6-A332E776760C">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:57 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<schemaObject>7BF12A1C-DE8C-541F-9791-3F8A5E6F0D4F</schemaObject>
+<segment>DB68BD18-BEBF-5ADA-4DD4-1B446167F52D</segment>
+<tableSpace>D4F376E0-5755-EC11-1B32-87F345EA1DE1</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="AUTOR_PK" id="7134BF5B-C6C1-BC2E-EB15-81DF397ED942">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:05:15 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<segment>DB68BD18-BEBF-5ADA-4DD4-1B446167F52D</segment>
+<tableSpace>D4F376E0-5755-EC11-1B32-87F345EA1DE1</tableSpace>
+<existingIndex>487ED063-4B80-5864-0AB6-A332E776760C</existingIndex>
+<indexSegment>DB68BD18-BEBF-5ADA-4DD4-1B446167F52D</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

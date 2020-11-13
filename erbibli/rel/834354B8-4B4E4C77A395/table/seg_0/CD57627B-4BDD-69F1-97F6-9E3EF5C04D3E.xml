@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CD57627B-4BDD-69F1-97F6-9E3EF5C04D3E" schemaObject="7BF12A1C-DE8C-541F-9791-3F8A5E6F0D4F" name="LIMITE">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>LIMITE</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:46 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MATERIALID" id="34ACAEE3-2154-897E-A0C1-0D02B14DC048">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>LIMITE</sourceObjSchema>
+<sourceObjName>MATERIALID</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="79CA612D-ADF9-ABB0-14DA-B2ED6DA3DF18" referredColumn="D7B18189-BC0D-8D7D-E688-88F4441D3448"/>
+</associations>
+</Column>
+<Column name="TIPOID" id="AC7B76FC-E5FA-2378-B911-39B87B8E2283">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>LIMITE</sourceObjSchema>
+<sourceObjName>TIPOID</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F604DEF9-39D0-EFF3-A615-4C02FA2E6A30" referredColumn="D7559AA0-E4D0-98D6-E909-28B30BF81AAD"/>
+</associations>
+</Column>
+<Column name="LÍMITEPRESTAMOS" id="BDB424BC-EC01-73FD-F422-383FE05FD630">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>LIMITE</sourceObjSchema>
+<sourceObjName>LÍMITEPRESTAMOS</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LÍMITERENOVACIONES" id="778AFC9E-6C6F-B10F-92B2-45F6C9588C9A">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>LIMITE</sourceObjSchema>
+<sourceObjName>LÍMITERENOVACIONES</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D3560E9-D052-C462-7D7E-96FEEDB38E27" name="LIMITE_PK">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>LIMITE_PK</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:05:15 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34ACAEE3-2154-897E-A0C1-0D02B14DC048"/>
+<colUsage columnID="AC7B76FC-E5FA-2378-B911-39B87B8E2283"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E878703-526E-1BB4-3F48-8E6B70679D79" schemaObject="7BF12A1C-DE8C-541F-9791-3F8A5E6F0D4F" name="LIMITE_PK">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>LIMITE_PK</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:59 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34ACAEE3-2154-897E-A0C1-0D02B14DC048"/>
+<colUsage columnID="AC7B76FC-E5FA-2378-B911-39B87B8E2283"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4FDE1D1B-7E4F-60C9-BFD7-B47BFECD4B79" name="FK_LIMITE5">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:06:03 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34ACAEE3-2154-897E-A0C1-0D02B14DC048"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93D55B6E-DDD5-9E1C-E588-A9FFC4ECF664" name="FK_TIPOID5">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:06:03 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC7B76FC-E5FA-2378-B911-39B87B8E2283"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

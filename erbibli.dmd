@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="erbibli" id="FF71E2C2-3815-67FA-88AA-C8B73CA6F5A0" version="3.5">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 20:56:15 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>FF71E2C2-3815-67FA-88AA-C8B73CA6F5A0</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="5EB49A49-4F49-AF5C-9DF1-D7BE00174113">
+<designStoragePath>C:\</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

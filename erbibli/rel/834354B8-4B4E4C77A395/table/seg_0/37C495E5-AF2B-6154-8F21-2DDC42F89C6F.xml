@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="37C495E5-AF2B-6154-8F21-2DDC42F89C6F" schemaObject="7BF12A1C-DE8C-541F-9791-3F8A5E6F0D4F" name="AUTOR">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>AUTOR</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:46 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AUTORID" id="0A4C3849-B242-83F5-9C48-6609933639F9">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>AUTOR</sourceObjSchema>
+<sourceObjName>AUTORID</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="54E5A675-EC8D-3FB1-D0DA-4B2ECA4C1737">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>AUTOR</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7134BF5B-C6C1-BC2E-EB15-81DF397ED942" name="AUTOR_PK">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>AUTOR_PK</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:05:15 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A4C3849-B242-83F5-9C48-6609933639F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="487ED063-4B80-5864-0AB6-A332E776760C" schemaObject="7BF12A1C-DE8C-541F-9791-3F8A5E6F0D4F" name="AUTOR_PK">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>AUTOR_PK</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:57 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A4C3849-B242-83F5-9C48-6609933639F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

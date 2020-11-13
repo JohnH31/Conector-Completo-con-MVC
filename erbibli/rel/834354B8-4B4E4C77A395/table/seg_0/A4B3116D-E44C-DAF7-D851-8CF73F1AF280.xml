@@ -1,0 +1,196 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A4B3116D-E44C-DAF7-D851-8CF73F1AF280" schemaObject="7BF12A1C-DE8C-541F-9791-3F8A5E6F0D4F" name="PAGO">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>PAGO</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:46 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PAGOID" id="176CE3ED-6FEC-E0B3-41A4-91B1A1E2934A">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>PAGO</sourceObjSchema>
+<sourceObjName>PAGOID</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOCIOID" id="F7283AB5-09D3-90CA-4868-97B2AC9BDE03">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>PAGO</sourceObjSchema>
+<sourceObjName>SOCIOID</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="86442767-FCA6-DDE7-416C-407EB49FE775" referredColumn="90EE2785-5208-9EEE-1385-D0454E672EFB"/>
+</associations>
+</Column>
+<Column name="TRASACCIONID" id="589002B9-142D-B5ED-17F5-535F000847C5">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>PAGO</sourceObjSchema>
+<sourceObjName>TRASACCIONID</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1F49BEA4-BBDC-98F6-9156-72EA1EB077E0" referredColumn="39B26F93-9FD2-F077-0BE2-90F4C45DB0C2"/>
+</associations>
+</Column>
+<Column name="DESCRIPCIÓN" id="3BC94F1E-E391-7CD5-73B4-D6ADBCCC1CCB">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>PAGO</sourceObjSchema>
+<sourceObjName>DESCRIPCIÓN</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMPORTE" id="7957C500-DED8-966F-2FF9-3E8409CA5664">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>PAGO</sourceObjSchema>
+<sourceObjName>IMPORTE</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA" id="CD283AF0-C0E9-5270-27EC-31A6CDC0E3A5">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>PAGO</sourceObjSchema>
+<sourceObjName>FECHA</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ULTIMAMODFECHA" id="E9011232-9D02-ED1A-34F7-B9A7BD219CBB">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>PAGO</sourceObjSchema>
+<sourceObjName>ULTIMAMODFECHA</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ULTIMAMODEMPL" id="C6F40B45-0701-A708-352D-8F7C79A50C97">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>PAGO</sourceObjSchema>
+<sourceObjName>ULTIMAMODEMPL</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="748B04B8-2284-A1AF-71F5-76786BDBAE8D" referredColumn="A7C51C7F-4F4F-37A7-B009-0B843ABC56A8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="50A5ACE1-4241-AB58-4065-66642569638E" name="PAGO_PK">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>PAGO_PK</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:05:15 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="176CE3ED-6FEC-E0B3-41A4-91B1A1E2934A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="23487A3C-841B-DBCC-B106-123333E1DF19" schemaObject="7BF12A1C-DE8C-541F-9791-3F8A5E6F0D4F" name="PAGO_PK">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>PAGO_PK</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:59 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="176CE3ED-6FEC-E0B3-41A4-91B1A1E2934A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF5139C2-17B6-65F2-4324-45BDF667FDA1" name="FK_SOCIOID5">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:06:03 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7283AB5-09D3-90CA-4868-97B2AC9BDE03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB657272-65F1-5035-CF25-22C3BD574F66" name="FK_TRAEMPLEADOID5">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:06:03 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6F40B45-0701-A708-352D-8F7C79A50C97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E47F48E-9A26-6D86-8E8B-20808CBB3FF1" name="FK_TRASACCIONID5">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:06:03 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="589002B9-142D-B5ED-17F5-535F000847C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

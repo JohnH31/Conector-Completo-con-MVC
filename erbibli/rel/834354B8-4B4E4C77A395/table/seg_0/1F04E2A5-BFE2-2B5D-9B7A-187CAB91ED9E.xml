@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1F04E2A5-BFE2-2B5D-9B7A-187CAB91ED9E" schemaObject="7BF12A1C-DE8C-541F-9791-3F8A5E6F0D4F" name="HISTORICOESTADO">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>HISTORICOESTADO</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:46 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EJEMPLARID" id="5366B91B-7CC7-4378-3F71-E24ED264F915">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>HISTORICOESTADO</sourceObjSchema>
+<sourceObjName>EJEMPLARID</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC0EE363-E3ED-4017-9C86-B687394078BD" referredColumn="14800DD0-6536-0C15-F2A3-AE38D94086FE"/>
+</associations>
+</Column>
+<Column name="ESTADOID" id="8C13C4B9-57F4-1562-3164-8518464B465B">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>HISTORICOESTADO</sourceObjSchema>
+<sourceObjName>ESTADOID</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CAEE3647-B735-BB80-0C36-BB87B10603BA" referredColumn="A8D3CAF4-D917-F352-50A4-775DB4A5107B"/>
+</associations>
+</Column>
+<Column name="FECHADESDE" id="6923BCBC-22EC-DC42-46A8-FFAB9DDFFFE2">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>HISTORICOESTADO</sourceObjSchema>
+<sourceObjName>FECHADESDE</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHAHASTA" id="7B8FEE55-D09B-063F-55CC-A77BF70BF5E5">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>HISTORICOESTADO</sourceObjSchema>
+<sourceObjName>FECHAHASTA</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D0D869BE-2269-2D46-D1BC-5AFD163A06AE" name="HISTORICOESTADO_PK">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>HISTORICOESTADO_PK</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:05:15 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5366B91B-7CC7-4378-3F71-E24ED264F915"/>
+<colUsage columnID="8C13C4B9-57F4-1562-3164-8518464B465B"/>
+<colUsage columnID="6923BCBC-22EC-DC42-46A8-FFAB9DDFFFE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6267FBF8-23CF-FDA3-3B04-184D23D39E4F" schemaObject="7BF12A1C-DE8C-541F-9791-3F8A5E6F0D4F" name="HISTORICOESTADO_PK">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>HISTORICOESTADO_PK</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:59 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5366B91B-7CC7-4378-3F71-E24ED264F915"/>
+<colUsage columnID="8C13C4B9-57F4-1562-3164-8518464B465B"/>
+<colUsage columnID="6923BCBC-22EC-DC42-46A8-FFAB9DDFFFE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD0B8CCB-679E-77CB-DF20-74214A9DF138" name="FK_EJEMPLARID3">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:06:03 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5366B91B-7CC7-4378-3F71-E24ED264F915"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="42E28C3B-0652-A590-F72B-520B189E56F9" name="FK_ESTADOID3">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:06:03 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C13C4B9-57F4-1562-3164-8518464B465B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="748B04B8-2284-A1AF-71F5-76786BDBAE8D" containerWithKeyObject="A4B3116D-E44C-DAF7-D851-8CF73F1AF280" localFKIndex="CB657272-65F1-5035-CF25-22C3BD574F66" name="FK_TRAEMPLEADOID5">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>FK_TRAEMPLEADOID5</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:06:03 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<referredTableLongName>SYS.EMPLEADO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1AB6F486-897A-6B15-0D8C-69BFAFCD185F</referredTableID>
+<keyObject>90507416-74D7-FAE5-54D2-784ECBA4C142</keyObject>
+<referredKeyID>90507416-74D7-FAE5-54D2-784ECBA4C142</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>EMPLEADOID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

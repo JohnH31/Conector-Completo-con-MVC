@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ECA5E599-646F-D77E-36F0-3B79B94C020D" schemaObject="7BF12A1C-DE8C-541F-9791-3F8A5E6F0D4F" name="TRANSACCION">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>TRANSACCION</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:42 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TRASACCIONID" id="39B26F93-9FD2-F077-0BE2-90F4C45DB0C2">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>TRANSACCION</sourceObjSchema>
+<sourceObjName>TRASACCIONID</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCIÓN" id="3CF4950D-C086-21E5-0893-25AFC066E08D">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>TRANSACCION</sourceObjSchema>
+<sourceObjName>DESCRIPCIÓN</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5F14A7B6-4FEE-E375-A2FD-4533864BDBEA" name="TRANSACCION_PK">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>TRANSACCION_PK</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:05:15 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39B26F93-9FD2-F077-0BE2-90F4C45DB0C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81ADCB65-3E89-8037-1291-961153B7607B" schemaObject="7BF12A1C-DE8C-541F-9791-3F8A5E6F0D4F" name="TRANSACCION_PK">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>TRANSACCION_PK</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:59 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39B26F93-9FD2-F077-0BE2-90F4C45DB0C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

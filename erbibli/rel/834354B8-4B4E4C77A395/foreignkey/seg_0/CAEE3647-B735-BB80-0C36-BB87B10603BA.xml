@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CAEE3647-B735-BB80-0C36-BB87B10603BA" containerWithKeyObject="1F04E2A5-BFE2-2B5D-9B7A-187CAB91ED9E" localFKIndex="42E28C3B-0652-A590-F72B-520B189E56F9" name="FK_ESTADOID3">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>FK_ESTADOID3</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:06:03 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<referredTableLongName>SYS.ESTADO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D506A5E5-8AE3-B7C4-FE0C-B8EF39C92C5F</referredTableID>
+<keyObject>E37862FA-FE85-1418-99FF-DB16AF0D8491</keyObject>
+<referredKeyID>E37862FA-FE85-1418-99FF-DB16AF0D8491</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ESTADOID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1F49BEA4-BBDC-98F6-9156-72EA1EB077E0" containerWithKeyObject="A4B3116D-E44C-DAF7-D851-8CF73F1AF280" localFKIndex="3E47F48E-9A26-6D86-8E8B-20808CBB3FF1" name="FK_TRASACCIONID5">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>FK_TRASACCIONID5</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:06:03 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<referredTableLongName>SYS.TRANSACCION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>ECA5E599-646F-D77E-36F0-3B79B94C020D</referredTableID>
+<keyObject>5F14A7B6-4FEE-E375-A2FD-4533864BDBEA</keyObject>
+<referredKeyID>5F14A7B6-4FEE-E375-A2FD-4533864BDBEA</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>TRASACCIONID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

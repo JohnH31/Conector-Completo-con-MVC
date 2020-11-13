@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="79CA612D-ADF9-ABB0-14DA-B2ED6DA3DF18" containerWithKeyObject="CD57627B-4BDD-69F1-97F6-9E3EF5C04D3E" localFKIndex="4FDE1D1B-7E4F-60C9-BFD7-B47BFECD4B79" name="FK_LIMITE5">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>FK_LIMITE5</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:06:03 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<referredTableLongName>SYS.MATERIAL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>57A6A885-2C14-E47E-6A04-9DA237387021</referredTableID>
+<keyObject>D8945F92-6668-E55F-13F9-13ACAC4EC47B</keyObject>
+<referredKeyID>D8945F92-6668-E55F-13F9-13ACAC4EC47B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MATERIALID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

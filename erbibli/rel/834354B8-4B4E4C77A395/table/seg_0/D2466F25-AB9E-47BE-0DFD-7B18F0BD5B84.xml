@@ -1,0 +1,227 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2466F25-AB9E-47BE-0DFD-7B18F0BD5B84" schemaObject="7BF12A1C-DE8C-541F-9791-3F8A5E6F0D4F" name="EJEMPLAR">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>EJEMPLAR</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:46 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EJEMPLARID" id="14800DD0-6536-0C15-F2A3-AE38D94086FE">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>EJEMPLAR</sourceObjSchema>
+<sourceObjName>EJEMPLARID</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BIBLIOTECAID" id="ED083CFF-920E-80A9-A6FE-74FFA381F35C">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>EJEMPLAR</sourceObjSchema>
+<sourceObjName>BIBLIOTECAID</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A6A4639A-EF35-0094-0288-612D115715F4" referredColumn="6D5757B5-089C-6659-F544-33841D5F021D"/>
+</associations>
+</Column>
+<Column name="RECURSOID" id="A8C714BF-6C49-0F10-651F-513C630D852C">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>EJEMPLAR</sourceObjSchema>
+<sourceObjName>RECURSOID</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C981CDB9-8604-91B6-4AF1-40440EB77D6B" referredColumn="75CC0362-DFFC-7854-571F-6B5DC9F10BD2"/>
+</associations>
+</Column>
+<Column name="DESCRIPCIÓN" id="43E95D79-801B-3F78-4A92-18F59779EBD6">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>EJEMPLAR</sourceObjSchema>
+<sourceObjName>DESCRIPCIÓN</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CÓDIGOBARRAS" id="5A47231B-E6E1-28F3-8143-137E25AC4672">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>EJEMPLAR</sourceObjSchema>
+<sourceObjName>CÓDIGOBARRAS</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTADORRENOVAC" id="F4BBF7BF-6DB0-0E0D-44D6-5756F52E98F6">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>EJEMPLAR</sourceObjSchema>
+<sourceObjName>CONTADORRENOVAC</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHAALTA" id="E9277815-FF70-ACA0-8554-04EBB9CE41A5">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>EJEMPLAR</sourceObjSchema>
+<sourceObjName>FECHAALTA</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHABAJA" id="FC5B4180-13FA-08AC-6BDB-A5B8B8ACAE14">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>EJEMPLAR</sourceObjSchema>
+<sourceObjName>FECHABAJA</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ULTIMAMODFECHA" id="E7B43913-9591-41C4-5742-38CB7F478E7A">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>EJEMPLAR</sourceObjSchema>
+<sourceObjName>ULTIMAMODFECHA</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ULTIMAMODEMPL" id="7BBABE01-8A7A-7CE1-3081-CF18E50732BE">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>EJEMPLAR</sourceObjSchema>
+<sourceObjName>ULTIMAMODEMPL</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:53 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D8E93ED2-EC25-819C-954B-77C0DE3B5A23" referredColumn="A7C51C7F-4F4F-37A7-B009-0B843ABC56A8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="03911D5B-6167-D7CF-C65A-403466C008D7" name="EJEMPLAR_PK">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>EJEMPLAR_PK</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:05:15 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14800DD0-6536-0C15-F2A3-AE38D94086FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E608AEA-81BA-78F4-D0E2-42CBA7F5BA92" schemaObject="7BF12A1C-DE8C-541F-9791-3F8A5E6F0D4F" name="EJEMPLAR_PK">
+<sourceConnName>pro1</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>EJEMPLAR_PK</sourceObjName>
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:04:59 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14800DD0-6536-0C15-F2A3-AE38D94086FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="469EB195-D751-174A-737C-7E1FB2A9E0BB" name="FK_BIBLIOTECAID2">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:06:03 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED083CFF-920E-80A9-A6FE-74FFA381F35C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E86D9C68-7574-71AD-BF97-2535393EC0E5" name="FK_RECURSOID2">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:06:03 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8C714BF-6C49-0F10-651F-513C630D852C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1B097F7-41A2-DBD8-0F11-5CD701FDCA4B" name="FK_ULTIMAMODEMPL2">
+<createdBy>John</createdBy>
+<createdTime>2020-11-13 21:06:03 UTC</createdTime>
+<ownerDesignName>erbibli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BBABE01-8A7A-7CE1-3081-CF18E50732BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
